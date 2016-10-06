@@ -1,2 +1,2 @@
-# randomquotes
-The best of Rick Sanchez random quote machine
+# Random Quote Machine
+The best of Rick Sanchez random quote machine.
