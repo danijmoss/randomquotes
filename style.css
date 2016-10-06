@@ -1,0 +1,56 @@
+body{
+  text-align: center;
+  background-color: #f2a546;
+}
+
+.lead {
+  font-weight: 600;
+  font-size: 32px;
+  color: #c31c1c;
+  /*-Font Stroke from CSS Tricks: https://css-tricks.com/examples/TextStroke/*/
+  -webkit-text-stroke: 1px black;
+  text-shadow:
+    3px 3px 0 #000,
+    /* Simulated effect for Firefox and Opera and nice enhancement for WebKit */
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000; 
+}
+
+textarea{
+  width: 500px;
+  text-align: center;
+  font-weight: bold;
+  resize: none;
+}
+
+textarea#txtbox {
+  font-size: 22px;
+  padding: 20px 10px;
+  color: #000;
+}
+
+.form-control[readonly] {
+  background:rgba(238,238,238,0.5);
+  border: #000 solid 3px;
+}
+
+.btn-info {
+  background-color: #428ea5;
+  border-color: #428ea5;
+}
+
+.btn-success {
+  background-color: #417f41;
+  border-color: #417f41;
+}
+
+.footer {
+  color: #fff;
+  padding: 15px 0;
+}
+
+.footer > a {
+  color: #fff;
+}
