@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Rick Sanchez Random Quote Machine</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <img src="http://i1025.photobucket.com/albums/y311/psykobilliethekid/rickandmorty-logo_zpspvaxewmm.png" alt="Rick and Morty Logo" class="img-responsive center-block" />
+      <p class="lead">The Best of Rick Sanchez</p>
+      <textarea id="txtbox" class="form-control" rows="5" readonly></textarea>
+      <br />
+      <button class="btn btn-success" onClick="quotes()">Want More? Click Here!</button>
+      <button id="tweet-button" class="btn btn-info" onClick="tweet()">Tweet it!</button>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container">
+    <div class="col-md-12">
+      <p class="footer">Site created by Danielle Moss &copy; 2016 
+        <br /> 
+        <a href="https://twitter.com/danijmoss" target="_blank">Twitter</a> |
+        <a href="https://github.com/danijmoss" target="_blank"> Github</a> |
+        <a href="https://www.linkedin.com/in/danijmoss" target="_blank"> LinkedIn</a> |
+        <a href="https://www.freecodecamp.com/danijmoss" target="_blank"> FreeCodeCamp</a></p>
+    </div>
+  </div>
+</nav>
+
+<!-- Reference: https://codedump.io/share/HKWok7xKr1o3/1/javascript-random-quote-onclick 
+http://stackoverflow.com/questions/34248006/i-need-to-be-able-to-press-a-button-to-tweet-out-a-quote
+http://stackoverflow.com/questions/35699577/send-random-quote-with-tweet-button-click-in-jquery
+-->
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+     <script src="js/index.js"></script>
+    
+  </body>
+</html>
